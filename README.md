@@ -14,12 +14,16 @@ Based in Passau, Germany · M.Sc. Computer Science at the University of Passau
 
 <br />
 
-<img src="assets/system-map-light.svg#gh-light-mode-only" alt="Abstract pipeline diagram: input, validate, decide, observe, prove" width="100%" />
-<img src="assets/system-map-dark.svg#gh-dark-mode-only" alt="" width="100%" />
+<img src="assets/proof-boundary-light.svg#gh-light-mode-only" alt="Abstract boundary diagram: uncertainty, validate, quarantine, evidence" width="100%" />
+<img src="assets/proof-boundary-dark.svg#gh-dark-mode-only" alt="" width="100%" />
 
 <br />
 
-## What I work on
+<p align="center"><em>Building software that turns uncertainty at the boundary into evidence.</em></p>
+
+<br />
+
+## What I build
 
 I build the unglamorous but important parts of software: access control that is explicit, data pipelines that do not quietly lose bad records, operational tools that explain what is happening, and tests that treat failure paths as first-class behaviour.
 
@@ -27,9 +31,15 @@ I build the unglamorous but important parts of software: access control that is 
 
 <br />
 
-## Selected engineering evidence
+## Selected systems
 
-Four representative projects — six pinned repositories below carry the full picture.
+Six representative systems — pinned repositories below carry the full picture.
+
+<br />
+
+### [RupeeRoute](https://github.com/mithulram/rupee-route)
+
+Sandbox remittance-platform monorepo with integer money, transfer state machines, immutable audit events, RBAC admin operations, and deterministic sandbox providers — no live money movement.
 
 <br />
 
@@ -54,6 +64,12 @@ FastAPI observability demonstrator with readiness signals, Prometheus-format met
 ### [Automotive Security Test Bench](https://github.com/mithulram/automotive-security-test-bench)
 
 Python tool for reproducible ECU threat scenarios, risk prioritization, mitigation mapping, and JSON/HTML reporting.
+
+<br />
+
+### [Battery Telemetry Validation Harness](https://github.com/mithulram/battery-telemetry-validation-harness)
+
+C++17 BMS telemetry validation harness with deterministic quarantine rules, Python fault-injection data, and CMake/CTest tests.
 
 <br />
 
