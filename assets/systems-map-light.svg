@@ -1,64 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-labelledby="title desc">
-  <title>Six systems map</title>
-  <desc>Decorative map of six portfolio systems: fintech, API security, data pipeline, observability, automotive security, and telemetry validation.</desc>
-  <rect width="1280" height="220" fill="#f8fafc"/>
-  <rect x="0.5" y="0.5" width="1279" height="219" rx="12" fill="none" stroke="#e2e8f0"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="200" viewBox="0 0 960 200" role="img" aria-labelledby="title desc">
+  <title>Selected systems</title>
+  <desc>Six portfolio systems in a balanced grid.</desc>
+  <rect width="960" height="200" rx="12" fill="#f8fafc" stroke="#e2e8f0"/>
 
-  <text x="640" y="32" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#64748b" letter-spacing="0.16em">THE PIN BOARD  SIX SYSTEMS, ZERO FLUFF</text>
+  <text x="480" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#64748b" letter-spacing="0.14em">SELECTED SYSTEMS</text>
 
-  <!-- connector rail -->
-  <path d="M 180 120 H 1100" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="6 8" fill="none"/>
-
-  <!-- cards -->
+  <!-- 6 equal cards: x = 20 + i*155, width 145 -->
   <g font-family="ui-sans-serif, system-ui, sans-serif">
-    <g transform="translate(90,58)">
-      <rect width="170" height="110" rx="14" fill="#fff" stroke="#14b8a6" stroke-width="2"/>
-      <text x="85" y="36" text-anchor="middle" font-size="22">=¸</text>
-      <text x="85" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">RupeeRoute</text>
-      <text x="85" y="78" text-anchor="middle" font-size="10" fill="#64748b">sandbox fintech</text>
-      <text x="85" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">no real money, promise</text>
+    <g transform="translate(20,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#14b8a6" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#ecfdf5"/>
+      <text x="26" y="33" text-anchor="middle" font-size="14" fill="#0f766e">?</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">RupeeRoute</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">Sandbox fintech monorepo</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">Transfer state machine</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">No live money</text>
     </g>
-    <g transform="translate(285,58)">
-      <rect width="170" height="110" rx="14" fill="#fff" stroke="#1e3a5f" stroke-width="2"/>
-      <text x="85" y="36" text-anchor="middle" font-size="22">=</text>
-      <text x="85" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Secure API</text>
-      <text x="85" y="78" text-anchor="middle" font-size="10" fill="#64748b">Spring Boot + RBAC</text>
-      <text x="85" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">deny paths tested</text>
+    <g transform="translate(175,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#1e3a5f" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#eff6ff"/>
+      <text x="26" y="33" text-anchor="middle" font-size="13" fill="#1d4ed8">??</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">Secure API</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">Spring Boot + RBAC</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">Audit grant registry</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">MockMvc tests</text>
     </g>
-    <g transform="translate(480,58)">
-      <rect width="170" height="110" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
-      <text x="85" y="36" text-anchor="middle" font-size="22">>ê</text>
-      <text x="85" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Data Pipeline</text>
-      <text x="85" y="78" text-anchor="middle" font-size="10" fill="#64748b">quarantine the chaos</text>
-      <text x="85" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">lineage you can audit</text>
+    <g transform="translate(330,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#eff6ff"/>
+      <text x="26" y="33" text-anchor="middle" font-size="13" fill="#2563eb">?</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">Data Pipe</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">DuckDB validation</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">Quarantine + lineage</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">Quality gate</text>
     </g>
-    <g transform="translate(675,58)">
-      <rect width="170" height="110" rx="14" fill="#fff" stroke="#14b8a6" stroke-width="2"/>
-      <text x="85" y="36" text-anchor="middle" font-size="22">=á</text>
-      <text x="85" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Health Monitor</text>
-      <text x="85" y="78" text-anchor="middle" font-size="10" fill="#64748b">SLOs &amp; incidents</text>
-      <text x="85" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">metrics that talk</text>
+    <g transform="translate(485,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#14b8a6" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#ecfdf5"/>
+      <text x="26" y="33" text-anchor="middle" font-size="13" fill="#0f766e">?</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">Monitor</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">FastAPI observability</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">SLO / error budget</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">Prometheus metrics</text>
     </g>
-    <g transform="translate(870,58)">
-      <rect width="170" height="110" rx="14" fill="#fff" stroke="#1e3a5f" stroke-width="2"/>
-      <text x="85" y="36" text-anchor="middle" font-size="22">=—</text>
-      <text x="85" y="58" text-anchor="middle" font-size="12" font-weight="700" fill="#0f172a">Auto Sec Bench</text>
-      <text x="85" y="78" text-anchor="middle" font-size="10" fill="#64748b">ECU threat stories</text>
-      <text x="85" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">risk scores, not hype</text>
+    <g transform="translate(640,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#1e3a5f" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#f8fafc"/>
+      <text x="26" y="33" text-anchor="middle" font-size="13" fill="#334155">?</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">Auto Sec</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">ECU threat scenarios</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">5×5 risk scoring</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">JSON/HTML reports</text>
     </g>
-    <g transform="translate(1065,58)">
-      <rect width="125" height="110" rx="14" fill="#fff" stroke="#3b82f6" stroke-width="2"/>
-      <text x="62" y="36" text-anchor="middle" font-size="22">=</text>
-      <text x="62" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#0f172a">BMS Harness</text>
-      <text x="62" y="78" text-anchor="middle" font-size="10" fill="#64748b">C++ quarantine</text>
-      <text x="62" y="94" text-anchor="middle" font-size="9" fill="#94a3b8">bad volts begone</text>
+    <g transform="translate(795,48)">
+      <rect width="145" height="132" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="1.5"/>
+      <rect x="12" y="14" width="28" height="28" rx="6" fill="#eff6ff"/>
+      <text x="26" y="33" text-anchor="middle" font-size="13" fill="#2563eb">?</text>
+      <text x="72" y="30" font-size="11" font-weight="700" fill="#0f172a">BMS Test</text>
+      <text x="12" y="58" font-size="9.5" fill="#64748b">C++17 validation</text>
+      <text x="12" y="74" font-size="9.5" fill="#64748b">Deterministic quarantine</text>
+      <text x="12" y="108" font-size="8.5" fill="#94a3b8">CMake / CTest</text>
     </g>
   </g>
-
-  <circle cx="175" cy="120" r="5" fill="#14b8a6"/>
-  <circle cx="370" cy="120" r="5" fill="#1e3a5f"/>
-  <circle cx="565" cy="120" r="5" fill="#3b82f6"/>
-  <circle cx="760" cy="120" r="5" fill="#14b8a6"/>
-  <circle cx="955" cy="120" r="5" fill="#1e3a5f"/>
-  <circle cx="1127" cy="120" r="5" fill="#3b82f6"/>
 </svg>
