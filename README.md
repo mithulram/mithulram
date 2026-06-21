@@ -1,139 +1,93 @@
 <!--
-  Hey — thanks for stopping by.
-  Built with Proof at the Boundary energy: mint, navy, and systems that earn trust.
+  oh hey — you found the source code of a person.
+  mascot by mithulram · mint + navy · proof at the boundary
 -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=150&section=header" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=140&section=header&text=hey%2C%20the%20internet&fontSize=36&fontColor=e2e8f0&animation=fadeIn&fontAlignY=40&desc=Mithulram%20was%20here&descSize=14&descAlignY=62" alt="" />
 
 <table align="center">
   <tr>
-    <td align="center" width="200">
-      <a href="https://github.com/mithulram">
-        <img src="https://avatars.githubusercontent.com/u/65196854?v=4" width="180" height="180" alt="Mithulram Gunasekaran" style="border-radius: 50%; border: 4px solid #14b8a6;" />
-      </a>
+    <td align="center" width="210">
+      <img src="assets/mascot-light.svg#gh-light-mode-only" width="190" alt="Mithu mascot — online engineer blob" />
+      <img src="assets/mascot-dark.svg#gh-dark-mode-only" width="190" alt="" />
       <br />
-      <sub><b>Passau, Germany</b></sub>
+      <sub>📡 broadcasting from <b>Germany</b> · online</sub>
     </td>
     <td valign="middle">
       <a href="https://git.io/typing-svg">
-        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3800&pause=900&color=14B8A6&center=false&vCenter=false&width=520&lines=Hi%2C+I%27m+Mithulram+Gunasekaran;Software+Engineer+%C2%B7+Backend+%26+Data;M.Sc.+Computer+Science+%C2%B7+Passau;I+turn+uncertainty+into+evidence" alt="Typing introduction" />
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3600&pause=800&color=14B8A6&center=false&vCenter=false&width=500&lines=I+build+things+that+don%27t+lie+to+you;backend+%C2%B7+data+%C2%B7+security;professional+chaos+organizer;currently+accepting+interesting+problems" alt="Typing introduction" />
       </a>
       <br /><br />
       <a href="https://mithulram-portfolio.vercel.app">
-        <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=14b8a6" alt="Portfolio" />
+        <img src="https://img.shields.io/badge/🌐_Portfolio-see_the_pretty_bits-14b8a6?style=for-the-badge&labelColor=0f172a" alt="Portfolio" />
       </a>
       <a href="https://www.linkedin.com/in/mithulram-g-926ba520a">
-        <img src="https://img.shields.io/badge/LinkedIn-1e3a5f?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+        <img src="https://img.shields.io/badge/LinkedIn-let's_talk-1e3a5f?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
       </a>
       <a href="https://github.com/mithulram">
-        <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=14b8a6" alt="GitHub" />
+        <img src="https://img.shields.io/badge/GitHub-where_the_code_lives-0f172a?style=for-the-badge&logo=github&logoColor=14b8a6" alt="GitHub" />
       </a>
     </td>
   </tr>
 </table>
 
-<br />
-
 <div align="center">
-  <img src="assets/about-terminal.gif" alt="Terminal intro: Mithulram builds proof at the boundary" width="720" />
+  <img src="assets/about-terminal.gif" alt="Terminal: Mithulram on the internet" width="720" />
 </div>
 
-<br />
-
 <div align="center">
-
-### Stack I ship with
 
 [![Stack](https://skillicons.dev/icons?i=java,spring,python,fastapi,ts,react,flutter,cpp,docker,postgres,git,githubactions,azure,nestjs,duckdb&perline=8)](https://skillicons.dev)
 
 </div>
 
-<br />
-
-<img src="assets/proof-boundary-light.svg#gh-light-mode-only" alt="Proof at the boundary: uncertainty, validate, quarantine, evidence" width="100%" />
+<img src="assets/proof-boundary-light.svg#gh-light-mode-only" alt="Proof at the boundary pipeline" width="100%" />
 <img src="assets/proof-boundary-dark.svg#gh-dark-mode-only" alt="" width="100%" />
 
 <p align="center"><em>Building software that turns uncertainty at the boundary into evidence.</em></p>
 
-## Selected systems
+## The pin board
 
-### [RupeeRoute](https://github.com/mithulram/rupee-route)
+<img src="assets/systems-map-light.svg#gh-light-mode-only" alt="Map of six portfolio systems" width="100%" />
+<img src="assets/systems-map-dark.svg#gh-dark-mode-only" alt="" width="100%" />
 
-Sandbox remittance monorepo with transfer state machines, immutable audit events, and deterministic sandbox providers — **133 Vitest tests** and Playwright E2E in CI.
+<p align="center">Six repos pinned below — that's the whole highlight reel. No homework archives, no snake games.</p>
 
-*Sandbox only — no live money movement.*
+<details>
+<summary><b>↳ tap for quick links (if you hate scrolling)</b></summary>
 
-<details open>
-<summary><strong>Five more systems ↓</strong></summary>
-
-<br />
-
-### [Secure Asset Access API](https://github.com/mithulram/secure-asset-access-api)
-
-Spring Boot API with RBAC, JPA persistence, audit grant registry, and **MockMvc integration tests** across auth and denial paths.
-
-*Grant registry for audit review — runtime asset-level enforcement out of scope.*
-
-<br />
-
-### [Data Quality & Lineage Pipeline](https://github.com/mithulram/data-quality-lineage-pipeline)
-
-Python/DuckDB pipeline that quarantines invalid records and emits **lineage manifest + quality-report artefacts** under a configurable error-rate gate.
-
-*Synthetic CSV source — not a production warehouse.*
-
-<br />
-
-### [Service Health & Incident Monitor](https://github.com/mithulram/service-health-incident-monitor)
-
-FastAPI monitor with Prometheus-format metrics, SLO/error-budget reasoning, and **HTTP tests that verify fault-injection effects**.
-
-*Synthetic in-memory events — demo simulation gated behind explicit demo mode.*
-
-<br />
-
-### [Automotive Security Test Bench](https://github.com/mithulram/automotive-security-test-bench)
-
-Python CLI for reproducible ECU threat scenarios, **5×5 likelihood-impact risk scoring**, and JSON/HTML assessment reports.
-
-*Portfolio demonstrator — not an ISO/SAE 21434-compliant TARA.*
-
-<br />
-
-### [Battery Telemetry Validation Harness](https://github.com/mithulram/battery-telemetry-validation-harness)
-
-C++17 harness with deterministic quarantine rules, **CMake/CTest unit tests**, and Python fault-injection data.
-
-*Synthetic telemetry — not connected to production vehicle hardware.*
+| | |
+|:---:|:---|
+| 💸 | **[RupeeRoute](https://github.com/mithulram/rupee-route)** — sandbox fintech, fake money only |
+| 🔐 | **[Secure Asset Access API](https://github.com/mithulram/secure-asset-access-api)** — Java API that says "no" loudly |
+| 🧪 | **[Data Quality Pipeline](https://github.com/mithulram/data-quality-lineage-pipeline)** — bad rows go to quarantine |
+| 📡 | **[Service Health Monitor](https://github.com/mithulram/service-health-incident-monitor)** — SLOs, metrics, panic-but-make-it-readable |
+| 🚗 | **[Automotive Sec Bench](https://github.com/mithulram/automotive-security-test-bench)** — ECU threats, scored & reported |
+| 🔋 | **[Battery Telemetry Harness](https://github.com/mithulram/battery-telemetry-validation-harness)** — C++ says "nope" to bad volts |
 
 </details>
 
-## What I build
+## What I actually do
 
-I build the parts of software that earn trust: access control that is explicit, pipelines that quarantine bad records instead of hiding them, operational tools that explain what is happening, and tests that treat failure paths as first-class behaviour.
+I make software that survives contact with reality — APIs with explicit permissions, pipelines that quarantine garbage instead of shipping it, dashboards that tell the truth, and tests that enjoy breaking things.
 
-> I have a soft spot for systems with fewer surprises than a Friday-afternoon deployment.
+> Soft spot: systems calmer than a Friday deploy. Hard spot: vague "it works on my machine" energy.
 
-## How I build
+## How I work
 
-| Principle | In practice |
-|---|---|
-| **Honest happy path** | A fresh clone should demonstrate something real |
-| **Failure as feature** | Validation, denial, quarantine, recovery — designed, not accidental |
-| **Document the boundary** | Scoped portfolio beats inflated claims |
-| **Leave evidence** | Tests, CI, docs, and artefacts anyone can verify |
+**Honest demos** · **designed failures** · **clear boundaries** · **receipts included** (tests, CI, docs)
 
 > [!TIP]
-> **Curious what I actually ship?** Start with my [portfolio](https://mithulram-portfolio.vercel.app) for the visual tour — then dig into the pinned repos for code.
+> Want the scenic route? My [portfolio](https://mithulram-portfolio.vercel.app) has the visuals. Want the receipts? Scroll to the pins.
 
 ---
 
 <div align="center">
 
-`status: curious · methodical · hunting the next edge case`
+`status: online · caffeinated · will refactor your validation layer for fun`
 
 <br />
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=110&section=footer" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=100&section=footer&text=see%20you%20around&fontSize=22&fontColor=64748b&animation=fadeIn" alt="" />
 
 </div>
