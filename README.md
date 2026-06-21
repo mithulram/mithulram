@@ -1,96 +1,90 @@
 <div align="center">
 
-<img src="assets/logo-mark-light.svg#gh-light-mode-only" width="112" alt="Mithulram logo mark" />
-<img src="assets/logo-mark-dark.svg#gh-dark-mode-only" width="112" alt="" />
+# Engineering you can inspect.
 
-# Mithulram Gunasekaran
-
-**Software Engineer · Backend, Data & Secure Systems**
-
-Germany · on the internet · M.Sc. Computer Science
-
-<br />
+**Mithulram Gunasekaran** · Software Engineer<br>
+Java, Python & secure systems · Passau, Germany
 
 <a href="https://mithulram-portfolio.vercel.app">
-  <img src="assets/btn-portfolio-light.svg#gh-light-mode-only" height="44" alt="Portfolio" />
-  <img src="assets/btn-portfolio-dark.svg#gh-dark-mode-only" height="44" alt="" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cta-portfolio-dark.svg">
+    <img src="assets/cta-portfolio-light.svg" height="40" alt="Open portfolio">
+  </picture>
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/mithulram-g-926ba520a">
-  <img src="assets/btn-linkedin-light.svg#gh-light-mode-only" height="44" alt="LinkedIn" />
-  <img src="assets/btn-linkedin-dark.svg#gh-dark-mode-only" height="44" alt="" />
-</a>
-&nbsp;
-<a href="https://github.com/mithulram">
-  <img src="assets/btn-github-light.svg#gh-light-mode-only" height="44" alt="GitHub" />
-  <img src="assets/btn-github-dark.svg#gh-dark-mode-only" height="44" alt="" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/cta-linkedin-dark.svg">
+    <img src="assets/cta-linkedin-light.svg" height="40" alt="LinkedIn">
+  </picture>
 </a>
 
-</div>
-
-<br />
-
-<div align="center">
-
-<img src="assets/proof-boundary-light.svg#gh-light-mode-only" alt="Proof at the boundary" width="960" />
-<img src="assets/proof-boundary-dark.svg#gh-dark-mode-only" alt="" width="960" />
-
-<br />
-
-*Building software that turns uncertainty at the boundary into evidence.*
-
-<br />
-
-<img src="assets/tech-strip-light.svg#gh-light-mode-only" alt="Technology stack" width="960" />
-<img src="assets/tech-strip-dark.svg#gh-dark-mode-only" alt="" width="960" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/evidence-hero-dark.svg">
+  <img src="assets/evidence-hero-light.svg" width="100%" alt="Abstract engineering workflow: input, check, decide, observe, prove">
+</picture>
 
 </div>
 
-<br />
+I build backend and data systems where trust is designed in: explicit permissions, quarantined bad records, observable services, and tests that respect the unhappy path.
 
-<div align="center">
+## The work
 
-<img src="assets/systems-map-light.svg#gh-light-mode-only" alt="Selected systems overview" width="960" />
-<img src="assets/systems-map-dark.svg#gh-dark-mode-only" alt="" width="960" />
+I build software for the moments when “it works” is not enough: APIs with explicit permissions, data pipelines that quarantine bad inputs, operational tools that explain what is happening, and tests that take the unhappy path seriously.
 
-</div>
+> I like production systems calm enough that Friday can remain a weekday.
 
-<p align="center">Pinned repositories below are the full evidence — six systems, no filler.</p>
+## Three things worth opening
+
+### [RupeeRoute](https://github.com/mithulram/rupee-route)
+
+A sandbox remittance-platform monorepo with integer money, transfer state machines, double-entry ledger concepts, role-aware operations, and deterministic provider integrations.
+
+`TypeScript` · `NestJS` · `Next.js` · `PostgreSQL`
+
+*Sandbox only—no live money movement, customer funds, or regulatory authorization.*
+
+### [Secure Asset Access API](https://github.com/mithulram/secure-asset-access-api)
+
+A Java/Spring Boot API for classified technical assets with validated REST endpoints, role-based authorization, JPA persistence, audit events, health checks, and security integration tests.
+
+`Java` · `Spring Boot` · `Spring Security` · `JPA`
+
+*Portfolio demonstrator; runtime asset-level grant evaluation is intentionally out of scope.*
+
+### [Data Quality & Lineage Pipeline](https://github.com/mithulram/data-quality-lineage-pipeline)
+
+A Python/DuckDB pipeline that validates source data, quarantines invalid records, enriches trusted data, exports CSV and Parquet, and records quality and lineage artefacts.
+
+`Python` · `DuckDB` · `SQL` · `Parquet`
+
+*Uses synthetic source data to demonstrate a reproducible local analytical workflow.*
 
 <details>
-<summary><strong>Quick links</strong></summary>
+<summary><strong>More systems in the pinned collection</strong></summary>
 
-| System | Repository |
-|:---|:---|
-| RupeeRoute | [mithulram/rupee-route](https://github.com/mithulram/rupee-route) |
-| Secure Asset Access API | [mithulram/secure-asset-access-api](https://github.com/mithulram/secure-asset-access-api) |
-| Data Quality & Lineage Pipeline | [mithulram/data-quality-lineage-pipeline](https://github.com/mithulram/data-quality-lineage-pipeline) |
-| Service Health & Incident Monitor | [mithulram/service-health-incident-monitor](https://github.com/mithulram/service-health-incident-monitor) |
-| Automotive Security Test Bench | [mithulram/automotive-security-test-bench](https://github.com/mithulram/automotive-security-test-bench) |
-| Battery Telemetry Validation Harness | [mithulram/battery-telemetry-validation-harness](https://github.com/mithulram/battery-telemetry-validation-harness) |
+- [Service Health & Incident Monitor](https://github.com/mithulram/service-health-incident-monitor) — FastAPI health checks, Prometheus-format metrics, incidents, and SLO/error-budget reasoning.
+- [Automotive Security Test Bench](https://github.com/mithulram/automotive-security-test-bench) — reproducible ECU threat scenarios, risk prioritisation, and JSON/HTML reporting.
+- [Battery Telemetry Validation Harness](https://github.com/mithulram/battery-telemetry-validation-harness) — C++17 validation rules, deterministic quarantine, CMake/CTest, and Python fault injection.
 
 </details>
 
-## What I build
+## How I think
 
-I build software that earns trust under scrutiny — explicit access control, pipelines that quarantine bad data, operational tools with useful signals, and tests that treat failure paths as first-class work.
+Explicit permissions · bad data belongs in quarantine · observability is a product feature · failure paths deserve tests
 
-> I prefer systems calmer than a Friday-afternoon deployment.
+## Core stack
 
-## How I build
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/core-stack-dark.svg">
+  <img src="assets/core-stack-light.svg" width="100%" alt="Core stack: Java, Spring Boot, Python, DuckDB, TypeScript, C++">
+</picture>
 
-- **Make the happy path honest** — a fresh clone should demonstrate something real
-- **Treat failure paths as features** — validation, denial, quarantine, recovery
-- **Document the boundary** — scoped portfolio beats inflated claims
-- **Leave evidence** — tests, CI, and readable documentation
+Java · Spring Boot · Python · DuckDB · TypeScript · C++
 
 > [!TIP]
-> **Hiring or just curious?** See the [portfolio](https://mithulram-portfolio.vercel.app) for the visual walkthrough — then inspect the pinned repos for code.
+> Want the visual product tour? Start with my [portfolio](https://mithulram-portfolio.vercel.app). Want implementation detail? The pinned repositories below have the receipts.
 
----
+Currently pursuing an M.Sc. in Computer Science at the University of Passau.
 
-<p align="center">
-
-`status: curious · methodical · hunting the next edge case`
-
-</p>
+`careful by default · curious on purpose`

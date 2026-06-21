@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
-  <title>Mithulram mark</title>
-  <circle cx="64" cy="64" r="60" fill="#f8fafc" stroke="#14b8a6" stroke-width="3"/>
-  <circle cx="64" cy="64" r="48" fill="#0f172a"/>
-  <path d="M44 88 V44 L64 72 L84 44 V88" fill="none" stroke="#14b8a6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <line x1="40" y1="64" x2="88" y2="64" stroke="#3b82f6" stroke-width="2" opacity="0.55"/>
-  <circle cx="64" cy="64" r="3" fill="#14b8a6"/>
-</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="40" viewBox="0 0 168 40" role="img" aria-labelledby="title">
+  <title>Open portfolio</title>
+  <rect width="168" height="40" rx="8" fill="#1e40af"/>
+  <path d="M18 20h8m0 0l-3-3m3 3l-3 3" stroke="#e0f2fe" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="26" cy="20" r="7" fill="none" stroke="#99f6e4" stroke-width="1.5"/>
+  <text x="48" y="25" font-family="ui-sans-serif,system-ui,sans-serif" font-size="13" font-weight="600" fill="#f8fafc">Open portfolio</text>
+</svg>

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="180" viewBox="0 0 1280 180" role="img" aria-labelledby="title desc">
+  <title>Engineering pipeline: input, check, decide, observe, prove</title>
+  <desc>Decorative abstract line-and-node diagram of an inspectable engineering workflow.</desc>
+  <rect width="1280" height="180" fill="#fafbfc"/>
+  <rect x="0.5" y="0.5" width="1279" height="179" fill="none" stroke="#e5e7eb"/>
+
+  <text x="640" y="36" text-anchor="middle" font-family="ui-sans-serif, system-ui, sans-serif" font-size="10" fill="#6b7280" letter-spacing="0.18em">ENGINEERING YOU CAN INSPECT</text>
+
+  <line x1="140" y1="96" x2="1140" y2="96" stroke="#d1d5db" stroke-width="1.25" stroke-dasharray="5 7"/>
+
+  <g font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" font-weight="600" fill="#111827" letter-spacing="0.1em">
+    <g transform="translate(140,96)">
+      <circle r="13" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+      <circle r="3.5" fill="#0d9488"/>
+      <text y="34" text-anchor="middle">INPUT</text>
+    </g>
+    <g transform="translate(390,96)">
+      <circle r="13" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+      <circle r="3.5" fill="#2563eb"/>
+      <text y="34" text-anchor="middle">CHECK</text>
+    </g>
+    <g transform="translate(640,96)">
+      <circle r="13" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+      <circle r="3.5" fill="#0d9488"/>
+      <text y="34" text-anchor="middle">DECIDE</text>
+    </g>
+    <g transform="translate(890,96)">
+      <circle r="13" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+      <circle r="3.5" fill="#2563eb"/>
+      <text y="34" text-anchor="middle">OBSERVE</text>
+    </g>
+    <g transform="translate(1140,96)">
+      <circle r="13" fill="#ffffff" stroke="#1e40af" stroke-width="1.5"/>
+      <circle r="3.5" fill="#0d9488"/>
+      <text y="34" text-anchor="middle">PROVE</text>
+    </g>
+  </g>
+
+  <g stroke="#374151" stroke-width="1.15" fill="none" opacity="0.45">
+    <line x1="153" y1="96" x2="377" y2="96"/>
+    <polygon points="377,96 369,92 369,100" fill="#374151" stroke="none"/>
+    <line x1="403" y1="96" x2="627" y2="96"/>
+    <polygon points="627,96 619,92 619,100" fill="#374151" stroke="none"/>
+    <line x1="653" y1="96" x2="877" y2="96"/>
+    <polygon points="877,96 869,92 869,100" fill="#374151" stroke="none"/>
+    <line x1="903" y1="96" x2="1127" y2="96"/>
+    <polygon points="1127,96 1119,92 1119,100" fill="#374151" stroke="none"/>
+  </g>
+</svg>

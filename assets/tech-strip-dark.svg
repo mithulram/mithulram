@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="40" viewBox="0 0 960 40" role="img" aria-labelledby="title">
-  <title>Technology stack</title>
-  <rect width="960" height="40" rx="8" fill="#1e293b" stroke="#334155"/>
-  <text x="480" y="25" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" fill="#94a3b8" letter-spacing="0.04em">Java · Spring · Python · FastAPI · TypeScript · React · Flutter · C++ · Docker · PostgreSQL · Azure · GitHub Actions</text>
-</svg>
