@@ -1,21 +1,54 @@
-<div align="center">
+<!--
+  Hey — thanks for stopping by.
+  Built with Proof at the Boundary energy: mint, navy, and systems that earn trust.
+-->
 
-# Mithulram Gunasekaran
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=150&section=header" alt="" />
 
-**Software Engineer · Backend, Data & Secure Systems**
-
-Passau, Germany · M.Sc. Computer Science · University of Passau
+<table align="center">
+  <tr>
+    <td align="center" width="200">
+      <a href="https://github.com/mithulram">
+        <img src="https://avatars.githubusercontent.com/u/65196854?v=4" width="180" height="180" alt="Mithulram Gunasekaran" style="border-radius: 50%; border: 4px solid #14b8a6;" />
+      </a>
+      <br />
+      <sub><b>Passau, Germany</b></sub>
+    </td>
+    <td valign="middle">
+      <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3800&pause=900&color=14B8A6&center=false&vCenter=false&width=520&lines=Hi%2C+I%27m+Mithulram+Gunasekaran;Software+Engineer+%C2%B7+Backend+%26+Data;M.Sc.+Computer+Science+%C2%B7+Passau;I+turn+uncertainty+into+evidence" alt="Typing introduction" />
+      </a>
+      <br /><br />
+      <a href="https://mithulram-portfolio.vercel.app">
+        <img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=vercel&logoColor=14b8a6" alt="Portfolio" />
+      </a>
+      <a href="https://www.linkedin.com/in/mithulram-g-926ba520a">
+        <img src="https://img.shields.io/badge/LinkedIn-1e3a5f?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/mithulram">
+        <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=14b8a6" alt="GitHub" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 <br />
 
-<a href="https://mithulram-portfolio.vercel.app">
-  <img src="assets/cta-portfolio-light.svg#gh-light-mode-only" alt="View my portfolio" height="36" />
-  <img src="assets/cta-portfolio-dark.svg#gh-dark-mode-only" alt="" height="36" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/mithulram-g-926ba520a"><strong>LinkedIn</strong></a>
+<div align="center">
+  <img src="assets/about-terminal.gif" alt="Terminal intro: Mithulram builds proof at the boundary" width="720" />
+</div>
+
+<br />
+
+<div align="center">
+
+### Stack I ship with
+
+[![Stack](https://skillicons.dev/icons?i=java,spring,python,fastapi,ts,react,flutter,cpp,docker,postgres,git,githubactions,azure,nestjs,duckdb&perline=8)](https://skillicons.dev)
 
 </div>
+
+<br />
 
 <img src="assets/proof-boundary-light.svg#gh-light-mode-only" alt="Proof at the boundary: uncertainty, validate, quarantine, evidence" width="100%" />
 <img src="assets/proof-boundary-dark.svg#gh-dark-mode-only" alt="" width="100%" />
@@ -31,7 +64,7 @@ Sandbox remittance monorepo with transfer state machines, immutable audit events
 *Sandbox only — no live money movement.*
 
 <details open>
-<summary><strong>Five more systems</strong></summary>
+<summary><strong>Five more systems ↓</strong></summary>
 
 <br />
 
@@ -83,20 +116,24 @@ I build the parts of software that earn trust: access control that is explicit, 
 
 ## How I build
 
-- **Make the happy path honest** — a fresh clone should demonstrate something real.
-- **Treat failure paths as features** — validation, denial, quarantine, and recovery deserve design attention.
-- **Document the boundary** — a clear portfolio scope is more credible than inflated claims.
-- **Leave evidence** — tests, CI, screenshots, and readable documentation turn work into proof.
+| Principle | In practice |
+|---|---|
+| **Honest happy path** | A fresh clone should demonstrate something real |
+| **Failure as feature** | Validation, denial, quarantine, recovery — designed, not accidental |
+| **Document the boundary** | Scoped portfolio beats inflated claims |
+| **Leave evidence** | Tests, CI, docs, and artefacts anyone can verify |
 
 > [!TIP]
-> **Hiring?** Start with my [portfolio](https://mithulram-portfolio.vercel.app) for the visual tour, then check the pinned repositories for code evidence.
-
-## Toolkit
-
-Java · Spring Boot · Python · FastAPI · DuckDB · SQL · TypeScript · React · Flutter · C++17 · CMake · GitHub Actions · Testing · CI/CD
+> **Curious what I actually ship?** Start with my [portfolio](https://mithulram-portfolio.vercel.app) for the visual tour — then dig into the pinned repos for code.
 
 ---
 
-Currently building at the intersection of backend engineering, data reliability, observability, and security-minded systems design.
+<div align="center">
 
 `status: curious · methodical · hunting the next edge case`
+
+<br />
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:14b8a6,100:1e3a5f&height=110&section=footer" alt="" />
+
+</div>
