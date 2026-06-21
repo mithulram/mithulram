@@ -8,19 +8,14 @@ Based in Passau, Germany · M.Sc. Computer Science at the University of Passau
 
 <br />
 
-<a href="https://www.linkedin.com/in/mithulram-g-926ba520a">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" height="28" />
-</a>
+<a href="https://www.linkedin.com/in/mithulram-g-926ba520a"><strong>LinkedIn</strong></a>
 
 </div>
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/system-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/system-map-light.svg">
-  <img src="assets/system-map-light.svg" alt="Abstract pipeline diagram: input, validate, decide, observe, prove" width="100%" />
-</picture>
+<img src="assets/system-map-light.svg#gh-light-mode-only" alt="Abstract pipeline diagram: input, validate, decide, observe, prove" width="100%" />
+<img src="assets/system-map-dark.svg#gh-dark-mode-only" alt="" width="100%" />
 
 <br />
 
