@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="150" viewBox="0 0 1280 150" role="img" aria-labelledby="title desc">
+  <title>Engineering pipeline: input, validate, decide, observe, prove</title>
+  <desc>Decorative systems diagram showing five connected stages in a software reliability pipeline.</desc>
+  <rect width="1280" height="150" fill="#0f172a"/>
+  <rect x="0.5" y="0.5" width="1279" height="149" fill="none" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- signal rail -->
+  <line x1="120" y1="75" x2="1160" y2="75" stroke="#334155" stroke-width="1.5" stroke-dasharray="4 6"/>
+
+  <!-- nodes -->
+  <g font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="11" fill="#e2e8f0">
+    <g transform="translate(120,75)">
+      <circle r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle r="4" fill="#60a5fa"/>
+      <text y="34" text-anchor="middle" font-weight="600" letter-spacing="0.08em">INPUT</text>
+    </g>
+    <g transform="translate(380,75)">
+      <circle r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle r="4" fill="#5eead4"/>
+      <text y="34" text-anchor="middle" font-weight="600" letter-spacing="0.08em">VALIDATE</text>
+    </g>
+    <g transform="translate(640,75)">
+      <circle r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle r="4" fill="#60a5fa"/>
+      <text y="34" text-anchor="middle" font-weight="600" letter-spacing="0.08em">DECIDE</text>
+    </g>
+    <g transform="translate(900,75)">
+      <circle r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle r="4" fill="#5eead4"/>
+      <text y="34" text-anchor="middle" font-weight="600" letter-spacing="0.08em">OBSERVE</text>
+    </g>
+    <g transform="translate(1160,75)">
+      <circle r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+      <circle r="4" fill="#60a5fa"/>
+      <text y="34" text-anchor="middle" font-weight="600" letter-spacing="0.08em">PROVE</text>
+    </g>
+  </g>
+
+  <!-- connectors -->
+  <g stroke="#94a3b8" stroke-width="1.25" fill="none" opacity="0.6">
+    <line x1="134" y1="75" x2="366" y2="75"/>
+    <polygon points="366,75 358,71 358,79" fill="#94a3b8" stroke="none"/>
+    <line x1="394" y1="75" x2="626" y2="75"/>
+    <polygon points="626,75 618,71 618,79" fill="#94a3b8" stroke="none"/>
+    <line x1="654" y1="75" x2="886" y2="75"/>
+    <polygon points="886,75 878,71 878,79" fill="#94a3b8" stroke="none"/>
+    <line x1="914" y1="75" x2="1146" y2="75"/>
+    <polygon points="1146,75 1138,71 1138,79" fill="#94a3b8" stroke="none"/>
+  </g>
+
+  <!-- field-note caption -->
+  <text x="640" y="28" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" fill="#64748b" letter-spacing="0.14em">ENGINEERING FIELD NOTES ù RELIABILITY PIPELINE</text>
+</svg>
